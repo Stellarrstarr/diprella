@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(128, 134, 133);
+}
+
+.main {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    margin: 120px auto;
+    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.137);
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-left {
+    width: 100%;
+}
+
+.container-left img {
+    width: 30%;
+    padding-right: 60px;
+    margin: 10px;
+}
+
+.left-form {
+    width: 56%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.sign-in {
+    color: #56aa95;
+    margin-bottom: 20px;
+}
+
+.icons {
+    margin-bottom: 20px;
+}
+
+.icons a {
+    color: black;
+}
+
+.fa-facebook-f {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.fa-google-plus-g {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 50px;
+    padding: 5px 3px;
+    font-size: 15px;
+}
+
+.fa-linkedin-in {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.option {
+    margin-bottom: 10px;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input-group i {
+    left: 0;
+    top: 10px;
+    position: absolute;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.input-group input {
+    padding: 10px 27px 10px 27px;
+    width: 100%;
+    outline: none;
+    background-color:#e0e4e360;
+    border: none;
+}
+
+::placeholder {
+    color: rgb(156, 156, 156);
+}
+
+.forget {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-bottom: 5px;
+}
+
+.input-btn input {
+    width: 50%;
+    border: none;
+    padding: 8px;
+    color: white;
+    background-color:#3ab19a;
+    border-radius: 18px;
+    margin-top: 25px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.container-right {
+    background-color: #3fc4a3;
+    color: white;
+    width: 70%;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.137);
+}
+
+.box-right {
+    margin: 100px auto;
+    width: 60%;
+}
+
+.hello {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.right-text {
+    color: rgba(255, 255, 255, 0.897);
+    font-weight: 100;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.right-btn input {
+    background-color: #3fc4a2;
+    color: white;
+    margin: 25px;
+    border: 1px solid white;
+    padding: 8px;
+    width: 70%;
+    border-radius: 18px;
+    font-size: 10px;
+    cursor: pointer
+}
